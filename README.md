@@ -10,5 +10,6 @@ To run the program in linux you must do the ff;
 * To build a project use "cargo build".
 * To build and run a project in one step use "cargo run".
 * To build a project without producing a binary to check for errors use "cargo check".
+* Running "cargo new" generates a Git repository along with a .gitignore file Git files will not be generated if you run "cargo new" in an existing Git repo. Running "cargo new --vsc=git" overrides this behaviour thus the Git files are forcefully created.
 * Instead of saving the result of the build in the same directory as our code, Cargo stores it in the target/debug directory.
 * An additional advantage of using Cargo is that the commands are the same no matter which operating system you’re working on.
